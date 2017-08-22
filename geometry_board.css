@@ -1,0 +1,64 @@
+#canvas_div{
+    float: left;
+    width:800px;
+    height:600px;
+    border: solid lavender;
+}
+
+#buttons{
+    margin-left: 12px;
+    float: left;
+    width:50px;
+    height:610px;
+}
+
+#btn_edit, #btn_line, #btn_bezierCurve, #btn_rect, #btn_polygon, #btn_circle, #btn_axis, #btn_eraser{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+#btn_edit:hover, #btn_line:hover, #btn_bezierCurve:hover, #btn_rect:hover, #btn_polygon:hover, #btn_circle:hover, #btn_axis:hover, #btn_eraser:hover{
+    border-color: #00ff99;
+    cursor: hand;
+    /*cursor: ne-resize;
+    cursor: nw-resize;
+    cursor: zoom-in;*/
+}
+
+#btn_edit:focus, #btn_line:focus, #btn_bezierCurve:focus, #btn_rect:focus, #btn_polygon:focus, #btn_circle:focus, #btn_axis:focus, #btn_eraser:focus{
+    border-color: #7208a3;
+    box-shadow: 0 4px 4px 0 #7208a3;
+}
+
+#btn_edit{
+    background-image: url("img/btn_edit.gif");
+}
+
+#btn_line{
+    background-image: url("img/btn_line.gif");
+}
+
+#btn_bezierCurve{
+    background-image: url("img/btn_bezierCurve.gif");
+}
+
+#btn_rect{
+    background-image: url("img/btn_rect.gif");
+}
+
+#btn_polygon{
+    background-image: url("img/btn_polygon.gif");
+}
+
+#btn_circle{
+    background-image: url("img/btn_circle.gif");
+}
+
+#btn_axis{
+    background-image: url("img/axis.gif");
+}
+
+#btn_eraser{
+    background-image: url("img/btn_eraser.gif");
+}
